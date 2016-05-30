@@ -1,5 +1,7 @@
 using Clutter;
 
+extern void setup_osx_menu();
+
 int main(string[] args)
 {
     Clutter.init(ref args);
@@ -57,6 +59,7 @@ int main(string[] args)
 
     stage.show_all();
     stage.destroy.connect(Clutter.main_quit);
+    setup_osx_menu();
     Clutter.main();
     return 0;
 }

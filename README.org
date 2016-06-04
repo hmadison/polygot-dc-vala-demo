@@ -1,0 +1,13 @@
+* Dc Polygot Meetup Vala Demo
+
+[[https://speakerdeck.com/hmadison/vala-and-objective-c][Sides]]
+
+=master= contains the pure vala example, =osx-infused-demo-app= contains the vala + objective c example.
+
+** Running
+
+#+BEGIN_SRC sh
+$ sudo port install clutter +quartz
+$ make
+$ ./demo
+#+END_SRC
